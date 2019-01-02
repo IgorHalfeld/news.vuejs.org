@@ -16,15 +16,15 @@ function getIssues () {
 
 const create = async feed => {
   feed.options = {
-    title: 'Vue.js News',
+    title: 'Vue.js Brasil',
     link: 'https://news.vuejs.org/feed.xml',
-    description: 'The Official Vue.js News',
+    description: 'Comunidade brasileira de Vue.js',
     image: 'http://news.vuejs.org/logo.png',
     favicon: 'http://news.vuejs.org/logo.png',
     author: {
-      name: 'Damian Dulisz',
-      email: 'damian@dulisz.com',
-      link: 'https://twitter.com/damiandulisz'
+      name: 'Comunidade brasileira de Vue.js',
+      email: 'hello@igorluiz.me ',
+      link: 'https://twitter.com/vuejs_brasil'
     }
   }
 
@@ -68,12 +68,12 @@ module.exports = {
     }
   },
   manifest: {
-    name: 'Official Vue.js News',
-    short_name: 'Vue.js News',
-    lang: 'en',
+    name: 'Vue.js Brasil',
+    short_name: 'Vue.js Brasil',
+    lang: 'pt-BR',
     display: 'standalone',
     background: '#fff',
-    description: 'Official Vue.js News'
+    description: 'Comunidade brasileira de Vue.js'
   },
   generate: {
     routes () {
@@ -94,20 +94,20 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Vue.js News',
+    title: 'Vue.js Brasil',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Read or listen the latest Vue.js news and discover resources.' },
-      { property: 'og:title', content: 'Official Vue.js News' },
+      { hid: 'description', name: 'description', content: 'Acompanhe todas as novidades da comunidade brasileira de Vue.js' },
+      { property: 'og:title', content: 'Comunidade brasileira de Vue.js' },
       { property: 'og:type', content: 'article' },
       { property: 'og:url', content: 'https://news.vuejs.org' },
       { property: 'og:image', content: 'https://news.vuejs.org/logo.png' },
-      { property: 'og:description', content: 'Read or listen the latest Vue.js news and discover resources.' },
+      { property: 'og:description', content: 'Acompanhe todas as novidades da comunidade brasileira de Vue.js' },
       { 'name': 'twitter:card', content: 'summary' },
-      { 'name': 'twitter:site', content: '@VueNewsletter' },
-      { 'name': 'twitter:title', content: 'Official Vue.js News' },
-      { 'name': 'twitter:description', content: 'Read or listen the latest Vue.js news and discover resources.' },
+      { 'name': 'twitter:site', content: '@vuejs_brasil' },
+      { 'name': 'twitter:title', content: 'Comunidade brasileira de Vue.js' },
+      { 'name': 'twitter:description', content: 'Acompanhe todas as novidades da comunidade brasileira de Vue.js' },
       { 'name': 'twitter:image', content: 'https://news.vuejs.org/logo.png' }
 
     ],
